@@ -1,0 +1,72 @@
+body{
+    background: rgb(60, 60, 119);
+    position: relative;
+}
+
+.div{
+    width: 650px;
+    height: 550px;
+    /* border: 1px solid; */
+    transform: translate(400px,150px);
+    background: #83bfff;
+}
+
+.div .name{
+    width: 500px;
+    height: 50px;
+    background: white;
+    position: absolute;
+    transform: translate(70px,30px);
+}
+.name input{
+    width: 495px;
+    position: absolute;
+    height: 50px;
+}
+
+
+.div .username{
+    width: 500px;
+    height: 50px;
+    background: white;
+    position: absolute;
+    transform: translate(70px,140px);
+}
+.username input{
+    width: 495px;
+    position: absolute;
+    height: 50px;
+}
+
+
+.div .password{
+    width: 500px;
+    height: 50px;
+    background: white;
+    position: absolute;
+    transform: translate(70px,240px);
+}
+.password input{
+    width: 495px;
+    position: absolute;
+    height: 50px;
+}
+button{
+    width: 500px;
+    height: 50px;
+    transform: translate(70px,480px);
+    background:red;
+    border-radius: 20px;
+}
+.div .nomer{
+    width: 500px;
+    height: 50px;
+    background: white;
+    position: absolute;
+    transform: translate(70px,340px);
+}
+.nomer input{
+    width: 495px;
+    position: absolute;
+    height: 50px;
+}
